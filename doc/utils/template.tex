@@ -5,9 +5,11 @@
 \usepackage{minted}
 \usemintedstyle{vs}
 %% Memoir
-\chapterstyle{hangnum} 
-% alternative: \chapterstyle{tandh} if margins suck
+\headstyles{memman}
+\chapterstyle{hangnum} % alternative: \chapterstyle{tandh} if margins are too small
 % for more styles: ftp://ftp.tex.ac.uk/tex-archive/documentation/MemoirChapStyles/MemoirChapStyles.pdf
+\hangsecnum % matches hangnum chapterstyle
+
 \begin{document}
     $body$
 \end{document}
