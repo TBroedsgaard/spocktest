@@ -1,14 +1,22 @@
 \documentclass[]{memoir}
-%% Language
+%% ==Language==
 \usepackage[danish]{babel}
-%% Code highlighting
+%% ==Code highlighting==
 \usepackage{minted}
 \usemintedstyle{vs}
-%% Memoir
+%% ==Memoir==
+%% ==Styling of chapters and sections==
 \headstyles{memman}
 \chapterstyle{hangnum} % alternative: \chapterstyle{tandh} if margins are too small
 % for more styles: ftp://ftp.tex.ac.uk/tex-archive/documentation/MemoirChapStyles/MemoirChapStyles.pdf
 \hangsecnum % matches hangnum chapterstyle
+%% ==Pagestyle (footer and header)==
+\usepackage{lastpage} % to pageref LastPage
+\makeoddfoot{ruled}{\thepage\ af \pageref{LastPage}}{}{}
+\makeevenfoot{ruled}{}{}{\thepage\ af \pageref{LastPage}}
+\copypagestyle{chapter}{plain}
+\makeoddfoot{chapter}{\thepage\ af \pageref{LastPage}}{}{}
+\makeevenfoot{chapter}{}{}{\thepage\ af \pageref{LastPage}}
 \pagestyle{ruled}
 
 \begin{document}
