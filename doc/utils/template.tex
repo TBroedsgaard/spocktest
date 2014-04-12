@@ -10,6 +10,8 @@
 \chapterstyle{hangnum} % alternative: \chapterstyle{tandh} if margins are too small
 % for more styles: ftp://ftp.tex.ac.uk/tex-archive/documentation/MemoirChapStyles/MemoirChapStyles.pdf
 \hangsecnum % matches hangnum chapterstyle
+\setsecnumdepth{subsection} % number subsections
+\maxtocdepth{subsection} % subsections in ToC
 %% ==Pagestyle (footer and header)==
 \usepackage{lastpage} % to pageref LastPage
 \makeoddfoot{ruled}{\thepage\ af \pageref{LastPage}}{}{}
