@@ -1,9 +1,15 @@
-\documentclass[]{memoir}
+\documentclass[openany]{memoir}
 %% ==Language==
 \usepackage[danish]{babel}
+\usepackage[utf8]{inputenc}
 %% ==Code highlighting==
 \usepackage{minted}
 \usemintedstyle{vs}
+%% ==Title Page==
+\newcommand*\spocktitle{
+    \centering
+    {\Huge\bfseries The title}
+    \vfill}
 %% ==Memoir==
 %% ==Styling of chapters and sections==
 \headstyles{memman}
@@ -25,5 +31,11 @@
 \renewcommand\appendixtocname{Bilag}
 
 \begin{document}
+    \frontmatter
+    \begin{titlingpage}
+    \spocktitle
+    \end{titlingpage}
+    \tableofcontents*
+    \clearpage
     $body$
 \end{document}
