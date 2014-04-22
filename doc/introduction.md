@@ -1,4 +1,4 @@
-<!---odf \mainmatter -->
+<!---pdf \mainmatter -->
 <!---pdf \part{Introduktion}\label{introduktion} -->
 
 # Projektoplæg
