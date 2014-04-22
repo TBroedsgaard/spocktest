@@ -1,4 +1,17 @@
 <!---pdf \part{Overordnet design}\label{overordnet-design} -->
 
+# Problemdefinition
 
-> Written with [StackEdit](https://stackedit.io/).
+# Kvalitetsplan
+
+# Kravsspecifikation
+
+## Use Case Model
+
+## Supplementary Specifikation
+
+## Forretningsregler
+
+## Objekt- og domænemodel
+
+## Arkitektur
