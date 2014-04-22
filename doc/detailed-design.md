@@ -6,7 +6,7 @@
 
 ## Use Case
 
-Teksten til use case
+Teksten til use case. Mere uddybet end i [Use Case Model](#use-case-model)
 
 ## System sekvens diagram
 
