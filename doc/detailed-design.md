@@ -14,7 +14,8 @@ Bacon ipsum dolor sit amet turkey porchetta prosciutto tenderloin jerky, turduck
 
 Id | Name | Imp | Est | Demo | Notes
 ---|------|-----|-----|------|------
-1  | Tilføj/rediger/fjern kunde | 100 | 30 | Indtast kundeinformationer, gem, luk. Start programmet, se at det er gemt. Ændr informationer, gem, luk og start igen. | Kundeinfo ikke krypteret
+1  | Tilføj/rediger/fjern kunde | 100 | 30 | Indtast kundeinformationer, gem, luk. \
+ Start programmet, se at det er gemt. Ændr informationer, gem, luk og start igen. | Kundeinfo ikke krypteret
 2 | Tilføj/rediger/fjern salg | 80 | 40 | Vælg kunde, tilføj salg, indtast info etc | Kritisk design, fuld plade med UML diagrammer
 
 Table: Product Backlog <!---pdf \label{product-backlog} -->
